@@ -1,0 +1,58 @@
+.filter-btn {
+  display: flex;
+  flex-wrap: wrap; /* ✅ Allows wrapping on smaller screens */
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.5rem;
+  background: #ffffffcc;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.filter-btn label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  color: #334155;
+}
+
+.filter-btn input,
+.filter-btn select {
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background-color: #f1f5f9;
+  transition: 0.3s ease;
+  min-width: 100px;
+}
+
+/* Buttons inside filter */
+.filter-btn button {
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(99, 102, 241, 0.3);
+}
+
+.filter-btn button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+.item-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column size */
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; /* ✅ Center horizontally */
+  max-width: 1200px; /* ✅ Prevent full-width stretching */
+  justify-content: center; /* ✅ Center items in row */
+}
