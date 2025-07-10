@@ -4,7 +4,7 @@ import { ItemContext } from '../context/ItemContext'
 import './ProductList.css';
  
 const ProductList = () => {
-    const { products } = useContext(ItemContext); // ✅ FIXED
+    const { products } = useContext(ItemContext);
 
     const [sortedProducts, setSortedProducts] = useState([...products]);
     const [minPrice, setMinPrice] = useState(0);
