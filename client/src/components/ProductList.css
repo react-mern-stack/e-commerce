@@ -1,6 +1,6 @@
 .filter-btn {
   display: flex;
-  flex-wrap: wrap; /* ✅ Allows wrapping on smaller screens */
+  flex-wrap: wrap; 
   gap: 1rem;
   justify-content: flex-start;
   align-items: center;
