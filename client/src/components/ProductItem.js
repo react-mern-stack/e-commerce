@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import { ItemContext } from '../context/ItemContext'; // ✅ fixed
+import { ItemContext } from '../context/ItemContext';
 import './ProductItem.css';
 
 
 const ProductItem = ({ product }) => {
-    const { addToCart, removeFromCart } = useContext(ItemContext); // ✅ fixed
+    const { addToCart, removeFromCart } = useContext(ItemContext); 
 
     const handleAddToCart = (product) => {
         console.log(product);
