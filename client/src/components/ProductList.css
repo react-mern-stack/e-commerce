@@ -52,7 +52,7 @@
   gap: 1.5rem;
   list-style: none;
   padding: 0;
-  margin: 0 auto; /* ✅ Center horizontally */
-  max-width: 1200px; /* ✅ Prevent full-width stretching */
-  justify-content: center; /* ✅ Center items in row */
+  margin: 0 auto; 
+  max-width: 1200px; 
+  justify-content: center; 
 }
